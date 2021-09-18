@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style1.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/> -->
+        <script src="https://kit.fontawesome.com/ae2254a4c0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="form-body">
+            <div class="row">
+                <div class="form-holder">
+                    <div class="form-content">
+                        <div class="form-items">
+                            <h3>Choose the Ad type</h3>
+                              <div class="c-line-left"></div>
+                              <form class="requires-validation" novalidate>
+    
+                                <div class="col-md-12">
+                                 
+                                   <input type="file" class="form-control"  id="validatedCustomerFile" hidden>
+                                   <label  id="upload" for="validatedCustomerFile" class="file-name">
+                                    Upload image  <i class="far fa-file-image"></i> 
+                                   </label>
+                                </div>
+    
+                               <div class="col-md-12">
+                                    <select class="form-select mt-3" required>
+                                          <option selected disabled value="">Select Type</option>
+                                          <option value="s-sq">SMALL SQUARE - 250x250</option>
+                                          <option value="s-re">SMALL RECTANGLE - 200x200</option>
+                                          <option value="m-re">MEDIUM RECTANGLE - 300x250</option>
+                                          <option value="l-re">LARGE RECTANGLE - 336x280</option>
+                                          <option value="ba">BANNER-468x60</option>
+                                    </select>
+                                    
+                               </div>
+
+                               <div class="col-md-12 m-auto p-5 , style:width-200px">
+                                <!-- Date input-->
+                                     <div class="datepicker date input-group p-0 shadow-sm">
+                                        <label for="exampleFormControlSelect1">FROM :</label>
+                                         <input type="date" placeholder="FROM" class="form-control py-4 px-4" id="selectFromDate">
+                                         <div class="input-group-append"><span class="input-group-text px-4"></span></div>
+                                     </div>
+                             </div>
+               
+                              <div class="col-md-12 m-5 p-5">
+                               <!-- Date input -->
+                                    <div class="datepicker date input-group p-0 shadow-sm">
+                                      <label for="exampleFormControlSelect1">TO :</label>
+                                        <input type="date" placeholder="TO" class="form-control py-4 px-4" id="selectToDate">
+                                        <div class="input-group-append"><span class="input-group-text px-4"></span></div>
+                                    </div>
+                            </div>
+               
+                             
+                             <!-- End date Picker Input -->
+    
+                            
+    
+                                <div class="form-button mt-3">
+                                    <button id="submit" type="submit" class="btn btn-primary">SUBMIT</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="/script1.js" async defer></script>
+        
+    </body>
+</html>
+
